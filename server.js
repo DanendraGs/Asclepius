@@ -3,7 +3,7 @@ const multer = require('multer');
 const tf = require('@tensorflow/tfjs-node'); // TensorFlow.js
 const uuidv4 = require('uuid').v4;
 const app = express();
-const port = 8080;
+const port = 3000;
 
 // Setup multer untuk upload gambar
 const storage = multer.memoryStorage();
