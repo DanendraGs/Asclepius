@@ -11,8 +11,8 @@ RUN npm install
 # Salin sisa aplikasi ke dalam container
 COPY . .
 
-# Expose port 3000 (sesuaikan dengan port aplikasi Anda)
-EXPOSE 3000
+# Expose port 8080 (sesuaikan dengan port aplikasi Anda)
+EXPOSE 8080
 
 # Jalankan aplikasi
 CMD ["node", "app.js"]
